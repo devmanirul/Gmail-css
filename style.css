@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* total section */
 .total {
     display: flex;
     flex-direction: row;
@@ -10,21 +11,26 @@
 /* icon section */
 .icon {
     width: 80px;
-    height: 100vh;
     background-color: #EAF1FB;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
 .icon button {
     border: none;
     background: transparent;
+    cursor: pointer;
+    padding: 5px;
+}
+.icon button:hover{
+    background-color: #D3E3FD;
+    border-radius: 50%;
 }
 .icon .manubar img{
     width: 20px;
     height: 20px;
-    margin-top: 30px;
-    
+    background: none;
 }
 .icon .mail {
     display: flex;
@@ -46,14 +52,16 @@
 }
 /* compose section */
 .compose{
-    width: 280px;
+    width: 250px;
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
     padding-left: 20px;
-    margin-top: 20px;
-
+    background-color: #F6F8FC;
 }
- 
+.compose .mail_img{
+    cursor: pointer;
+}
 .compose .mail_img button{
     display: flex;
     flex-direction: row;
@@ -64,12 +72,230 @@
     border-radius: 16px;
     border: none;
     background-color: #C2E7FF;
+    cursor: pointer;
 }
 .compose .mail_img button img{
      width: 15px;
      height: 15px;
+     cursor: pointer;
  }
 .compose .mail_img button p{
     font-size: 16px;
     font-weight: 500;
+}
+.others {
+    display: flex;
+    flex-direction: column;
+    width: ;
+    margin-top: 30px;
+}
+.compose .others button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: transparent;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.compose .others button:hover{
+    background-color: #D3E3FD;
+}
+.compose .label_top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px; 
+    margin-left: 25px;
+    background: transparent;
+    gap: 100px;
+}
+.compose .label_top p{
+    padding-top: 5px;
+}
+.compose .label_top button{
+    background: transparent;
+    border: none;
+    
+}
+.compose .label_top img{
+    padding: 5px;
+}
+.compose .label_top img:hover{
+    cursor: pointer;
+    background-color: #EAEBEF;
+    border-radius: 50%;
+}
+/* main section */
+.main{
+    background: #F5F7FB;
+    padding-top: 7px;
+    width: 1020px;
+     flex-direction: row;
+ }
+.main .main_div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.main .main_div .main_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 10px;
+}
+.main .main_div button{
+    border: none;
+    outline: none;
+    width: 650px;
+    border-radius: 30px;
+    background: #EAF1FB;
+}
+.main .main_div img {
+    height: 20px;
+    width: 20px;
+}
+.main .main_btn .int{
+    border: none;
+    outline: none;
+    width: 550px;
+    background: transparent;
+}
+.main .main_div .main_btn:active{
+    background: white;
+}
+.main .main_div .main_btn:focus{
+    background: white;
+}
+.main .main_div .active_btn {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px;
+    width: 100px;
+}
+.main .active_btn p{
+    margin-top: 0px;
+    padding: 0px;
+}
+.main .main_div .ques_btn{
+    width: 55px;
+}
+
+.main .main_div .satting{
+    width: 52px;
+    cursor: pointer;
+}
+.main .main_div .apps{
+    width: 52px;
+    cursor: pointer;
+}
+/* .aside{
+    width: 55px;
+    height: 100vh;
+    background-color: #F6F8FC;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 05px 0px 05px; 
+}*/
+.main .main_div .id{
+    border: none;
+    width: 52px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main .main_div img{
+    border-radius: 50%;
+}
+.message_aria {
+    background-color: white;
+    width: 950px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.message_aria .messa{
+    margin-top: 10px;
+}
+.messa img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.primary_aria{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.primary_aria .primary:hover{
+    background-color: #F4F4F4;
+}
+.primary_aria .promotion:hover{
+    background-color: #F4F4F4;
+}
+.primary_aria .social:hover{
+    background-color: #F4F4F4;
+}
+.primary {
+    width: 220px;
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.promotion {
+    width: 220px;
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.social {
+    width: 220px;
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.main .message_aria .messa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .message_aria .messa .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main .message_aria .messa .right p{
+    cursor: pointer;
+}
+.main .messages .mahabub{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
+.main .messages .mahabub:hover{
+    background-color: #F2F6FC;
+}
+.main .messages .mahabub .starimg{
+    display: flex;
+    flex-direction: row;
+}
+.main .messages .mahabub .starimg p{
+    width: 160px;
 }

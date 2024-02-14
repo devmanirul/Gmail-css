@@ -7,6 +7,7 @@
 .total {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 /* icon section */
 .icon {
@@ -101,6 +102,10 @@
     border-radius: 15px;
     cursor: pointer;
 }
+.compose .others img{
+    width: 30px;
+    height: 30px;
+}
 .compose .others button:hover{
     background-color: #D3E3FD;
 }
@@ -175,6 +180,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 5px;
     width: 100px;
 }
 .main .active_btn p{
@@ -213,6 +219,11 @@
     flex-direction: column;
     margin-top: 8px;
 }
+.message_aria #chack {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
 .mwssage_aria p{
     color: #545558;
 }
@@ -228,6 +239,9 @@
     flex-direction: row;
     padding-top: 5px;
 }
+/* .message_aria .primary_aria p{
+    color: #545558;
+} */
 .primary_aria .primary:hover{
     background-color: #F4F4F4;
     color: #4F57D0;
@@ -287,12 +301,22 @@
     flex-direction: row;
 }
 .main .messages .mahabub:hover{
-    background-color: #F2F6FC;
+    background-color: #D3E3FD;
+    cursor: pointer;
 }
-.main .messages .mahabub .starimg{
+.messages .mahabub .mahab_img {
+    height: 22px;
+}
+.messages .mahabub .mahab_img input {
+    height: 23px;
+    width: 18px;
+}
+.main .messages .mahabub .starimg {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 20px;
+    align-items: center;
 }
 .main .messages .mahabub .starimg p{
     width: 642px;

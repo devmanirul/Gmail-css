@@ -43,7 +43,6 @@
     width: 20px;
     height: 20px;
     background: none;
-
 }
 .mail .btn {
     display: flex;
@@ -58,6 +57,9 @@
     padding-top: 20px;
     padding-left: 20px;
     background-color: #F6F8FC;
+}
+.compose p{
+    color: #545558;
 }
 .compose .mail_img{
     cursor: pointer;
@@ -116,7 +118,6 @@
 .compose .label_top button{
     background: transparent;
     border: none;
-    
 }
 .compose .label_top img{
     padding: 5px;
@@ -131,7 +132,7 @@
     background: #F5F7FB;
     padding-top: 7px;
     width: 1020px;
-     flex-direction: row;
+    flex-direction: row;
  }
 .main .main_div{
     display: flex;
@@ -144,12 +145,11 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 0px 10px;
 }
-.main .main_div button{
+.main .main_div button {
     border: none;
     outline: none;
-    width: 650px;
+    width: 670px;
     border-radius: 30px;
     background: #EAF1FB;
 }
@@ -175,8 +175,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5px;
-    padding: 8px;
     width: 100px;
 }
 .main .active_btn p{
@@ -192,18 +190,11 @@
     width: 52px;
     cursor: pointer;
 }
-.main .main_div .apps{
+.main .main_div .apps {
     width: 52px;
+    height: 45px;
     cursor: pointer;
 }
-/* .aside{
-    width: 55px;
-    height: 100vh;
-    background-color: #F6F8FC;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 05px 0px 05px; 
-}*/
 .main .main_div .id{
     border: none;
     width: 52px;
@@ -216,11 +207,14 @@
 }
 .message_aria {
     background-color: white;
-    width: 950px;
+    width: 970px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     margin-top: 8px;
+}
+.mwssage_aria p{
+    color: #545558;
 }
 .message_aria .messa{
     margin-top: 10px;
@@ -236,12 +230,15 @@
 }
 .primary_aria .primary:hover{
     background-color: #F4F4F4;
+    color: #4F57D0;
 }
 .primary_aria .promotion:hover{
     background-color: #F4F4F4;
+    color: #4F57D0;
 }
 .primary_aria .social:hover{
     background-color: #F4F4F4;
+    color: #4F57D0;
 }
 .primary {
     width: 220px;
@@ -295,7 +292,37 @@
 .main .messages .mahabub .starimg{
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 .main .messages .mahabub .starimg p{
-    width: 190px;
+    width: 642px;
+    color: #545558;
+}
+.side{
+    background-color: #F6F8FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.side .myid img{
+    width:40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+ }
+ .side button {
+    border: none;
+    background-color: #EAF1FB;
+    border-radius: 50%;
+    margin: 7px;
+    padding: 3px;
+}
+.side .myid img:hover{
+    cursor: pointer;
+    background-color: #DEDFE3;
+}
+.side .light {
+    width: 35px;
+    height: 35px;
 }

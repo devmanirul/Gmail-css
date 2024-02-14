@@ -151,13 +151,21 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    background-color: #E4ECF8;
+
 }
 .main .main_div button {
     border: none;
     outline: none;
     width: 670px;
     border-radius: 30px;
-    background: #EAF1FB;
+    background: transparent;
+    /* background: #EAF1FB; */
+}
+.main .main_div button:hover{
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #E4ECF8;
 }
 .main .main_div img {
     height: 20px;
@@ -167,7 +175,20 @@
     border: none;
     outline: none;
     width: 550px;
-    background: transparent;
+    background-color: #E4ECF8; 
+}
+/* .main .main_btn .int:hover{
+    background-color: #E4ECF8;
+} */
+.main .main_btn .int:active{
+    background-color: white;
+}
+/* .main .main_btn .int:focus{
+     background-color: white;
+} */
+
+.main .main_div .main_btn:hover{
+    background: #E4ECF8;
 }
 .main .main_div .main_btn:active{
     background: white;
@@ -183,6 +204,11 @@
     justify-content: center;
     gap: 5px;
     width: 100px;
+    background-color: #E4ECF8;
+}
+.main .main_div .active_btn:hover{
+    background-color: #E4ECF8;
+    border-radius: 40px;
 }
 .main .active_btn p{
     margin-top: 0px;

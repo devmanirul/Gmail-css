@@ -136,13 +136,14 @@
 .main{
     background: #F5F7FB;
     padding-top: 7px;
-    width: 1020px;
+    width: 965px;
     flex-direction: row;
  }
 .main .main_div{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    width: 960px;
 }
 .main .main_div .main_btn {
     display: flex;
@@ -213,7 +214,7 @@
 }
 .message_aria {
     background-color: white;
-    width: 970px;
+    width: 960px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -323,31 +324,28 @@
     width: 642px;
     color: #545558;
 }
-.side{
+.side {
     background-color: #F6F8FC;
     display: flex;
     flex-direction: column;
     align-items: center;
- }
+    width: 55px;
+    padding-top: 7px;
+}
 .side .myid img{
     width:40px;
     height: 40px;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
+    
  }
  .side button {
-    border: none;
-    background-color: #EAF1FB;
-    border-radius: 50%;
-    margin: 7px;
-    padding: 3px;
+    border: none;  
+    background: transparent; 
 }
 .side .myid img:hover{
     cursor: pointer;
     background-color: #DEDFE3;
-}
-.side .light {
-    width: 35px;
-    height: 35px;
+    border-radius: 50%;
 }

@@ -306,6 +306,7 @@
 }
 .messages .mahabub .mahab_img {
     height: 22px;
+    filter: grayscale(100%);
 }
 .messages .mahabub .mahab_img input {
     height: 23px;

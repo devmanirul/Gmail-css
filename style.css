@@ -81,7 +81,7 @@
      width: 15px;
      height: 15px;
      cursor: pointer;
- }
+}
 .compose .mail_img button p{
     font-size: 16px;
     font-weight: 500;
@@ -138,7 +138,7 @@
     padding-top: 7px;
     width: 965px;
     flex-direction: row;
- }
+}
 .main .main_div{
     display: flex;
     flex-direction: row;
@@ -152,7 +152,6 @@
     align-items: center;
     gap: 5px;
     background-color: #E4ECF8;
-
 }
 .main .main_div button {
     border: none;
@@ -162,14 +161,19 @@
     background: transparent;
     /* background: #EAF1FB; */
 }
+.main .main_div .main_btn .hove:hover{
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #E4ECF8;
+}
 .main .main_div button:hover{
     cursor: pointer;
     border-radius: 40px;
     background-color: #E4ECF8;
 }
 .main .main_div img {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 .main .main_btn .int{
     border: none;
@@ -186,7 +190,6 @@
 /* .main .main_btn .int:focus{
      background-color: white;
 } */
-
 .main .main_div .main_btn:hover{
     background: #E4ECF8;
 }
@@ -218,7 +221,6 @@
     width: 55px;
     cursor: pointer;
 }
-
 .main .main_div .satting{
     width: 52px;
     cursor: pointer;
@@ -364,8 +366,7 @@
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
-    
- }
+}
  .side button {
     border: none;  
     background: transparent; 

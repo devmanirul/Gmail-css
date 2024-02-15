@@ -89,7 +89,6 @@
 .others {
     display: flex;
     flex-direction: column;
-    width: ;
     margin-top: 30px;
 }
 .compose .others button {
